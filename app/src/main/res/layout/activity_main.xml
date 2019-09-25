@@ -8,30 +8,33 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="39dp"
-        android:layout_height="22dp"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
         android:text="height"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="74dp"
+        android:layout_height="29dp"
         android:layout_marginTop="32dp"
         android:text="@string/weight"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="@+id/height"
         app:layout_constraintTop_toBottomOf="@+id/height"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/BMI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="54dp"
+        android:layout_height="32dp"
         android:layout_marginTop="32dp"
         android:text="BMI"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="@+id/weight"
         app:layout_constraintTop_toBottomOf="@+id/weight"
         tools:ignore="InvalidId,MissingConstraints" />
